@@ -5,6 +5,7 @@
     "keywords": ["SMSEdge","SMSEdge-API", "SMSEdge-API-PHP"],
     "homepage": "https://github.com/SMSEdge/API-PHP",
     "license": "MIT",
+    "minimum-stability": "dev-master",
     "authors": [
         {
             "name": "Mimon Copitman",
