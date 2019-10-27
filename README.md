@@ -32,6 +32,10 @@ Or you can clone or download the library files.
 Use the API Key from your account (https://app.smsedge.io/users/) to create a new `SmsEdgeApi\SmsEdgeApi` instance.
 
 ```php
+
+# include composer autoload
+require 'vendor/autoload.php';
+
 $sms_edge_api = new \SmsEdgeApi\SmsEdgeApi(''); # Put you api key between the quotes, For example: K_xGA286GbLxGf7zWM
 ```
 
