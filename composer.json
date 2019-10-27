@@ -1,6 +1,6 @@
 {
     "name": "smsedge/smsedge-api-php",
-    "type": "library",
+    "type": "package",
     "description": "SMSEdge API package for PHP development",
     "keywords": ["SMSEdge","SMSEdge-API", "SMSEdge-API-PHP"],
     "homepage": "https://github.com/SMSEdge/API-PHP",
