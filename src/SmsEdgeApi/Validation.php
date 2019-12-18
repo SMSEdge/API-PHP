@@ -2,8 +2,6 @@
 
 namespace SmsEdgeApi;
 
-use Exception;
-
 class validation
 {
 
@@ -139,7 +137,7 @@ class validation
                 if (strpos($rul, ':') !== false) {
                     $rule_with_params = explode(':', $rul);
                     if (key_exists($field, $fields)) {
-                        $this->{$rule_with_params[0]($field, $this->input($fields[$field]), $rule_with_params[1])};
+                        $this->$rule_with_params[0]($field, $this->input($fields[$field]), $rule_with_params[1]);
                     } else {
                         if (!$nullable) {
                             throw new Exception('Index "' . $field . '" can\'t be NULL');
